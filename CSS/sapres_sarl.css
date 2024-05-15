@@ -1,0 +1,55 @@
+body{
+   
+    /* display: flex; */
+    /* justify-content: center;
+    align-items: center; */
+    height: 100vh;
+    background-color: #ddd;
+    /* border-top: 50px;
+    border-bottom: 50px; */
+
+}
+
+#caroussel{
+   
+    width:640px;
+    /* overflow: auto; */
+    /* border: 3px solid #333; */
+    
+    margin-top: 60px;
+    /* height: calc(100vh - 50px); */
+    /* padding: 0 8%; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    background-color: blue;
+}
+.publi{
+    /* background-image: url( ../Sapres_image/1.jpg); */
+    background-color: blue;
+}
+.pub{
+    display: flex;
+    animation-duration: 15s;
+    animation-name: mesImages;
+    animation-iteration-count: infinite;
+}
+
+@keyframes mesImages{
+    0%{
+        transform: translateX(0);
+    }
+    25%{
+        transform: translateX(-640px);
+    }
+    50%{
+        transform: translateX(-1280);
+    }
+    75%{
+        transform: translateX(-1920px);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}

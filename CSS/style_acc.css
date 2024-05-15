@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Inter:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+body{
+    font-family: 'Inter',sans-serif;
+    background-image: url(../Image/photo_acc.jpeg);
+    background-size: cover;
+    
+}
+/*.slider_background{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(50%);
+}*/
+.bonjour{
+    color: white;
+}
+.bod{
+    background-color: rgb(40, 41, 42);
+    background-blend-mode: multiply;
+    
+    
+}
+.acc{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-40%,-40%);
+    text-align: center;
+    border-radius: 20px;
+    border-color: rgb(116, 116, 137);
+    background-color: blue;
+    height: 220px;
+    
+    
+    
+}
+.contener{
+    
+   
+    text-align: center;
+    border-radius: 20px;
+    border-color: rgb(116, 116, 137);
+    
+    
+}
+
+.iden{
+    background-color: rgb(200, 188, 212);
+    border-radius: 50px;
+}
+.info_acc{
+    background-color: beige;
+}
+h1{
+    /*color: #231717;*/
+    font-size: 5rem;
+
+}
+h2{
+    font-size: 3rem;
+    margin-bottom: 100px;
+}
+p{
+    font-size: 1.5rem;
+    line-height: 1.5em;
+}
+
+/*.section{
+    padding: 100px 0;
+}*/
